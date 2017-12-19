@@ -1,0 +1,20 @@
+{
+    "name": "mateus_moreira/app_estrategia_processos",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mateus Gabi",
+            "email": "mateusgabimoreira@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "scripts" : {
+        "exec" : "composer dump-autoload -o && php index.php"
+    }
+}
