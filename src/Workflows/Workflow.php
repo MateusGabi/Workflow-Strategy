@@ -149,7 +149,7 @@ abstract class Workflow
         
         $oldStatus = ucfirst(strtolower($oldStatus));
         $newStatus = ucfirst(strtolower($newStatus));
-        $method = "onChange{$oldStatus}To{$newStatus}";
+        $method = "onChangeFrom{$oldStatus}To{$newStatus}";
 
         if(method_exists($this, $method)) {
             $this->{$method}();
