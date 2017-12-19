@@ -2,6 +2,14 @@
 
 /**/SIGFAP*
 
+# Other Examples
+
+src/Model/Foo.php
+src/Strategies/AStrategy.php
+src/Strategies/BStrategy.php
+src/Workflows/AWorkflow.php
+
+
 # Composer files
 
 vendor/
